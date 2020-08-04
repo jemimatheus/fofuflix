@@ -4,12 +4,14 @@ import './index.css';
 import Home from './components/Pages/Home';
 import CadastroVideo from './components/Pages/cadastro/Video';
 import CadastroCategoria from './components/Pages/cadastro/Categoria/index';
-
+import img from './assets/img/404.jpg'
 import {BrowserRouter, Switch,Route } from 'react-router-dom';
 
 
 
-const Pagina404 = () => (<div>Página 404</div>)
+const Pagina404 = () => (
+<img className="cat" src={img} alt="Gatinho 404" />
+)
 
 ReactDOM.render(
 <BrowserRouter>

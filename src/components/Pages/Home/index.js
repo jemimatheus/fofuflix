@@ -5,6 +5,7 @@ import BannerMain from '../../BannerMain/index';
 import Carousel from '../../Carousel/index';
 import Footer from '../../Footer/index';
 
+
 function Home() {
   return (
     <div style={{ background: "#141414" }}>

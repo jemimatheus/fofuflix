@@ -28,3 +28,6 @@ a {
   display: flex;
   flex-direction: column;
 }
+.cat{
+  width: 50%;
+}
